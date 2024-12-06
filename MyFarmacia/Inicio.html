@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores Exóticos</title>
+    <link rel="stylesheet" href="css/styleMain.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/inicio.css">
+
+</head>
+
+<body>
+    <button onclick="mostrarElementos()">Admin</button>
+
+    <header>
+        <a href="Inicio.html" class="logo">
+            <img src="Imagenes/Logo.png" alt="Logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="Inicio.html" class="nav-link">Inicio</a></li>
+                <li><a href="Menu.html" class="nav-link">Menú</a></li>
+                <li><a href="Reservaciones.html" class="nav-link">Reservaciones</a></li>
+                <li><a href="Ordenar.html" class="nav-link">Ordenar</a></li>
+                <li><a href="Servicios.html" class="nav-link">Servicios</a></li>
+                <li><a href="Ubicacion.html" class="nav-link">Ubicación</a></li>
+                <li><a href="QuienesSomos.html" class="nav-link">¿Quiénes somos?</a></li>
+                <li><a id="loginLogout" href="IniciarSesion.html" class="nav-link">Iniciar Sesión</a></li>
+                <li hidden><a href="ActualizacionInfoCliente.html" class="nav-link">Actualizar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mini-banner">
+            <h2>¡Hola <span id="nombreUsuario"></span>!</h2>
+        </section>
+        <br>
+        <section id="Inicio">
+            <h1>Nuestras especialidades semanales</h1>
+            <section id="slider" class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="Imagenes/CarneAsada.jpg" alt="Carne Asada"></div>
+                        <div class="swiper-slide"><img src="Imagenes/RibEye.jpg" alt="Rib Eye"></div>
+                        <div class="swiper-slide"><img src="Imagenes/NewYork.jpg" alt="New York"></div>
+                        <div class="swiper-slide"><img src="Imagenes/Churrasco.png" alt="Chifrijo"></div>
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+            </section>
+            <br><br>
+
+            <h1>Nuestros servicios</h1>
+
+            <h3>Reserva de mesas</h3>
+            <a href="Reservaciones.html">
+                <figure> <img src="Imagenes/Reservaciones.jpg" alt="Reservaciones" title="Reservaciones"></figure>
+            </a>
+            <P>Aparta tu espacios desde la web. Realiza reservaciones en línea sin hacer fila.</P>
+
+            <h3>Cursos de cocina</h3>
+            <a href="Cursos.html">
+                <figure> <img src="Imagenes/CursoParrillada.jpg" alt="Reservaciones" title="Reservaciones"></figure>
+            </a>
+            <p>El restaurante Sabores Exóticos ofrece cursos de cocina para aquellos
+                que quieran aprender de nuestros platillos culinarios especializados
+                en diferentes tipos de comidas.
+            </p>
+
+            <h3>Planificación de eventos privados</h3>
+            <a href="EventosPrivados.html">
+                <figure> <img src="Imagenes/EventosPrivados.gif" alt="Planificación eventos privados"
+                        title="Eventos privados"> </figure>
+
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+        <p> copyright &copy; 2024 Sabores Exóticos. Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/inicio.js"></script>
+</body>
+
+</html>
