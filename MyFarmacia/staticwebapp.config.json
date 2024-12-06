@@ -1,6 +1,6 @@
 {
   "navigationFallback": {
-    "rewrite": "Inicio.html",
+    "rewrite": "Index.html",
     "exclude": ["/images/*", "/css/*"]
   }
 }
