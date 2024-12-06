@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-form {
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #4a4a4a;
+    background-color: #f7f7f7;
+    align-items: center;
+    position: relative;
+    margin: 2vh auto;
+    margin-bottom: 5vw;
+}
+
+.container-form label,
+.container-form input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container-form input[type="text"],
+.container-form input[type="password"],
+.container-form input[type="email"]{
+    background: rgba(218, 208, 37, 0.5);
+    color: #000000;
+    outline: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b;
+    font-family: Roboto;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+
+
+.container-form input[type="text"]:focus,
+.container-form input[type="password"]:focus,
+.container-form input[type="email"]:focus,
+.container-form input[type="date"]:focus,
+.container-form input[type="time"]:focus,
+.container-form input[type="number"]:focus,
+.container-form input[type="password"]:focus,
+.container-form select:focus {
+    border-bottom: 4px solid #0075d9;
+    color: #000000;
+}
+
+.container-form input[type="submit"] {
+    background-color: #000000;
+    color: #FFBF00;
+    width: 60%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 3vh auto;
+    display: flex;
+}
+
+.container-form input[type="submit"]:hover {
+    background-color: #FFBF00;
+    color: #000000;
+    font-weight: normal;
+    transform: scale(1.1);
+}
+
+.expiration-date {
+    display: flex;
+    align-items: center;
+}
+
+.expiration-date input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.expiration-date span {
+    margin: 0 5px;
+    font-size: 2em;
+}

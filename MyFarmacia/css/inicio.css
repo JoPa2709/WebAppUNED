@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.swiper {
+    width: 70%;
+    max-width: 600px;
+    /* Ajusta el tamaño máximo del slider */
+    height: 375px;
+}
+
+:root {
+    --swiper-theme-color: #fff;
+}
+
+/* .swiper-pagination-bullet {
+background: #FFBF00;
+} */
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    margin: 1vh  auto;
+    text-align:  center;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
