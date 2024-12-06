@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/styleLogin.css">
+</head>
+
+<body>
+    <header>
+        <!-- <a href="Inicio.html">
+            <img src="Imagenes/Logo.png" alt="Logo">
+        </a> -->
+    </header>
+
+    <main>
+        <section class="container-form">
+            <span class="toggle">Registrarse</span>
+
+            <section class="form">
+                <h2>Iniciar Sesión</h2>
+                <form method="post" id="loginForm">
+                    <label for="nombre usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                    <br>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+                    <br>
+                    <input type="submit" value="Iniciar sesión">
+                </form>
+            </section>
+
+            <section class="form">
+                <h2>Inscríbase gratuitamente</h2>
+                <p>Registrese y cree una cuenta para acceder a todas las demás funcionalidades.</p> <br>
+                <form action="/submit_reservation" method="post">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre"> <br>
+                    <label for="direccion">Lugar de residencia:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Dirección"> <br>
+                    <label for="tel">Teléfono:</label>
+                    <input type="text" id="tel" name="tel" placeholder="Teléfono" required> <br>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo" required> <br>
+
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña"><br>
+                    <label for="contrasena">Confirme su contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Confirme contraseña" required><br>
+                    <input type="submit" value="Crear cuenta" onclick="window.location.href='IniciarSesion.html'">
+                </form>
+            </section>
+
+            <a class="reset-password" href="Inicio.html">Olvidé mi contraseña</a>
+        </section>
+        
+    </main>
+    <footer>
+        <p>copyright © 2024 Sabores Exóticos. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/functionLogin.js"></script>
+</body>
+
+</html>
