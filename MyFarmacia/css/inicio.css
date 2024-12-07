@@ -14,7 +14,7 @@
 }
 
 :root {
-    --swiper-theme-color: #fff;
+    --swiper-theme-color: #060606;
 }
 
 /* .swiper-pagination-bullet {
@@ -40,3 +40,53 @@ h3 {
     display: none;
 }
 
+.hero {
+    background: url('bus.jpg') no-repeat center center/cover;
+    color: #020202;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.promociones {
+    padding: 20px;
+    text-align: center;
+}
+
+.promociones h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.promocion {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

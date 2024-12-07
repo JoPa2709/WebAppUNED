@@ -15,58 +15,75 @@
 <body>
 
     <header>
-        <a href="Inicio.html" class="logo">
-            <img src="Imagenes/Farm.png" alt="Logo">
+        <a href="Index.html" class="logo">
+            <img src="Imagenes/Logo.png" alt="Logo">
         </a>
         <h1>YourBus</h1>
 
         <nav>
             <ul>
-                <li><a href="Inicio.html" class="nav-link">Inicio</a></li>
+                <li><a href="Index.html" class="nav-link">Inicio</a></li>
                 <li><a href="ComprarTickets.html" class="nav-link">Comprar Tiquetes</a></li>
-                <li><a href="RutasHorarios.html" class="nav-link">Rutas y Horarios</a></li>
+                <li><a href="Servicios.html" class="nav-link">Servicios</a></li>
                 <li><a href="Ubicacion.html" class="nav-link">Contacto</a></li>
                 <li><a href="QuienesSomos.html" class="nav-link">¿Quiénes somos?</a></li>
                 <li><a id="loginLogout" href="IniciarSesion.html" class="nav-link">Iniciar Sesión</a></li>
-                <li hidden><a href="ActualizacionInfoCliente.html" class="nav-link">Actualizar</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>  
+    <main>
+        <section class="hero">
+            <h1>Bienvenido a YourBus</h1>
+            <p>Compra tus tiquetes de autobús de manera fácil y rápida.</p>
+            <a href="ComprarTickets.html" class="btn">Compra Ahora</a>
+        </section>
+
         <section id="catalogo">
-            <h2>Catálogo de Medicamentos</h2>
+            <h2>Principales rutas</h2>
             <div class="medicamento" id="medicamento1">
-                <h3>Paracetamol</h3>
-                <p>Precio: ¢ 3000.00</p> <br>
-                <img src="Imagenes/para.jpg" alt="Paracetamol"> <br>
+                <h3>San José - Cartago</h3>
+                <p>Precio: ¢ 1000.00</p> <br>
+                <img src="Imagenes/SJ-CART.png" alt="Paracetamol"> <br>
                 <button onclick="agregarAlCarrito('Paracetamol')">Agregar al carrito</button>
             </div>
             <div class="medicamento" id="medicamento2">
-                <h3>Ibuprofeno</h3>
-                <p>Precio: ¢ 5000.00</p> 
-                <img src="Imagenes/Ibu.jpg" alt="Ibuprofeno"> <br>
+                <h3>San José - Aeropuerto Juan Santamaría</h3>
+                <p>Precio: ¢ 1500.00</p> 
+                <img src="Imagenes/SJ-AeropuertoJuan.png" alt="Ibuprofeno"> <br>
                 <button onclick="agregarAlCarrito('Ibuprofeno')">Agregar al carrito</button>
             </div>
 
             <div class="medicamento" id="medicamento2">
-                <h3>Panadol multisíntomas</h3>
-                <p>Precio: ¢ 2700.00</p> 
-                <img src="Imagenes/panadol.png" alt="Panadol"> <br>
+                <h3>San José - Liberia</h3>
+                <p>Precio: ¢ 5000.00</p> 
+                <img src="Imagenes/SJ-LIB.png" alt="Panadol"> <br>
                 <button onclick="agregarAlCarrito('Panadol')">Agregar al carrito</button>
             </div>    
             
             <div class="medicamento" id="medicamento2">
-                <h3>Panadol multisíntomas</h3>
-                <p>Precio: ¢ 2700.00</p> 
-                <img src="Imagenes/panadolniños.png" alt="Panadol"> <br>
+                <h3>San José - Golfito</h3>
+                <p>Precio: ¢ 10000.00</p> 
+                <img src="Imagenes/SJ-GOLF.png" alt="Panadol"> <br>
                 <button onclick="agregarAlCarrito('Panadol')">Agregar al carrito</button>
             </div>   
          </section>
+
+        <section class="promociones">
+            <h2>Ofertas y Promociones</h2>
+            <div class="promocion">
+                <h3>Descuento del 20% en rutas seleccionadas</h3>
+                <p>Viaja con nosotros y ahorra en tus tiquetes.</p>
+            </div>
+            <div class="promocion">
+                <h3>Viaja gratis en tu décimo viaje</h3>
+                <p>Únete a nuestro programa de fidelidad y disfruta de viajes gratis.</p>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p> copyright &copy; 2024 MyFarmacia. Todos los derechos reservados</p>
+        <p> copyright &copy; 2024 YourBus. Teléfono 2275-1005. Todos los derechos reservados</p>
     </footer>
 
 
